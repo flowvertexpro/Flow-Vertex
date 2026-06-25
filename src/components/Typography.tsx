@@ -31,7 +31,7 @@ export default function Typography() {
       id: "typography",
       name: "Bespoke Kinetic Typography Reel",
       videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-matrix-style-falling-green-code-32731-large.mp4",
-      thumbnailUrl: "/src/assets/images/typography_before_after_reel_thumbnail_1781174211563.png",
+      thumbnailUrl: "https://lh3.googleusercontent.com/d/1jxn5FgO-5Dq67__hHo1oBF28o1Nnd2_V",
       category: "KINETIC MOTION",
       duration: "12s",
       client: "Flow Vertex Original",

@@ -8,7 +8,7 @@ export default function Cafe() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   const videoUrl = "https://assets.mixkit.co/videos/preview/mixkit-barista-pouring-milk-into-a-cup-of-coffee-31853-large.mp4";
-  const thumbnailUrl = "/src/assets/images/boc_coffee_thumbnail_1782303929683.jpg";
+  const thumbnailUrl = "https://lh3.googleusercontent.com/d/10hl8Bk399A6ggf38LL7O7L0tG-_NM42L";
 
   const keyfeatures = [
     { icon: Coffee, label: "Matte Latte Grade", desc: "Warm cozy espresso tones with creamy soft matte highlights." },
