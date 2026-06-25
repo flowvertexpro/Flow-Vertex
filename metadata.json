@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Flow Vertex Production",
+  "description": "Premium cinematic video production and elite creative editing agency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
