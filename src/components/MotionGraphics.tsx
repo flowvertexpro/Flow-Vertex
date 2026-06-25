@@ -6,7 +6,7 @@ export default function MotionGraphics() {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
-  const thumbnailUrl = "/src/assets/images/delhi_dehradun_expressway_thumbnail_1782304624959.jpg";
+  const thumbnailUrl = "https://lh3.googleusercontent.com/d/1RW6TwrLvQzui6TfaWCchg4y2tjwPyAdj";
   const reelUrl = "https://www.instagram.com/reel/DZkdQdzqSbb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==";
 
   const keyfeatures = [
