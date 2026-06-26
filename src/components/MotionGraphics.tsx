@@ -30,9 +30,9 @@ export default function MotionGraphics() {
             </span>
             
             <h2 className="font-display font-black tracking-tight text-zinc-900 mb-6 leading-tight">
-              <span className="block text-3xl sm:text-4xl lg:text-5xl uppercase mb-2">MOTION GRAPHICS</span>
+              <span className="block text-3xl sm:text-4xl lg:text-5xl uppercase mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#00e5bc] to-[#00fa75]">MOTION GRAPHICS</span>
               <span className="block text-sm sm:text-base lg:text-lg font-medium text-zinc-500 tracking-wide uppercase">
-                WE DON'T JUST ANIMATE. <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00e5bc] to-[#00fa75] font-black">WE HYPNOTIZE VIEWER MINDS.</span>
+                WE DON'T JUST ANIMATE. <span className="font-black text-zinc-900">WE HYPNOTIZE VIEWER MINDS.</span>
               </span>
             </h2>
 

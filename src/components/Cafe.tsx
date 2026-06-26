@@ -50,9 +50,9 @@ export default function Cafe() {
             </span>
             
             <h2 className="font-display font-black tracking-tight text-zinc-900 mb-6 leading-tight">
-              <span className="block text-3xl sm:text-4xl lg:text-5xl uppercase mb-2">CINEMATIC VIDEO</span>
+              <span className="block text-3xl sm:text-4xl lg:text-5xl uppercase mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#00e5bc] to-[#00fa75]">CINEMATIC VIDEO</span>
               <span className="block text-sm sm:text-base lg:text-lg font-medium text-zinc-500 tracking-wide uppercase">
-                WE DON'T SHOOT CAFES. <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00e5bc] to-[#00fa75] font-black">WE CAPTURE FEELINGS.</span>
+                WE DON'T SHOOT CAFES. <span className="font-black text-zinc-900">WE CAPTURE FEELINGS.</span>
               </span>
             </h2>
 

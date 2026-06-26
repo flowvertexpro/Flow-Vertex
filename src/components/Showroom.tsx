@@ -8,7 +8,7 @@ export default function Showroom() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   const videoUrl = "https://assets.mixkit.co/videos/preview/mixkit-luxury-red-sports-car-parked-outside-a-mansion-42797-large.mp4";
-  const thumbnailUrl = "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=800";
+  const thumbnailUrl = "https://lh3.googleusercontent.com/d/1q10dYP2nQmyNvWpF8JiBGoTvAg_xeRSq";
 
   const keyfeatures = [
     { icon: Zap, label: "Speed Ramping", desc: "Kinetic acceleration and dramatic focal freeze moments." },
@@ -49,9 +49,11 @@ export default function Showroom() {
               Segment 02: Showroom Spec
             </span>
             
-            <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl tracking-tight text-zinc-900 mb-6 leading-tight">
-              THIS ISN'T A VIDEO.<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00e5bc] to-[#00fa75]">IT'S YOUR NEXT SALE.</span>
+            <h2 className="font-display font-black tracking-tight text-zinc-900 mb-6 leading-tight">
+              <span className="block text-3xl sm:text-4xl lg:text-5xl uppercase mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#00e5bc] to-[#00fa75]">SPEED RAMP VIDEO</span>
+              <span className="block text-sm sm:text-base lg:text-lg font-medium text-zinc-500 tracking-wide uppercase">
+                THIS ISN'T A VIDEO. <span className="font-black text-zinc-900">IT'S YOUR NEXT SALE.</span>
+              </span>
             </h2>
 
             <p className="text-zinc-600 font-sans font-light text-sm sm:text-base leading-relaxed mb-6">
@@ -135,7 +137,13 @@ export default function Showroom() {
 
                 {/* Middle Action Ring and play button indicator */}
                 {!isPlaying && (
-                  <div className="absolute inset-0 flex flex-col items-center justify-center z-20 gap-3">
+                  <div
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open("https://www.instagram.com/reel/DaB288OyM_n/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", "_blank");
+                    }}
+                    className="absolute inset-0 flex flex-col items-center justify-center z-20 gap-3 cursor-pointer"
+                  >
                     <div className="w-16 h-16 rounded-full bg-white/95 border border-zinc-200 flex items-center justify-center backdrop-blur-md transition-all duration-300 group-hover:scale-110 shadow-lg">
                       <Play className="w-6 h-6 fill-[#04342C] text-[#04342C] ml-1" />
                     </div>

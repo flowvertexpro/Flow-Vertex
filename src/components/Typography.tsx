@@ -137,7 +137,7 @@ export default function Typography() {
             </span>
             
             <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl tracking-tight text-zinc-900 mb-6 leading-tight">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00e5bc] to-[#00fa75]">TYPOGRAPHY</span> REELS
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00e5bc] to-[#00fa75]">TYPOGRAPHY REELS</span>
             </h2>
 
             <p className="text-zinc-600 font-sans font-light text-sm sm:text-base leading-relaxed mb-6">
